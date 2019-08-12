@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="app_Name">Name</string>
+    <string name="app_Age">Age</string>
+</resources>
