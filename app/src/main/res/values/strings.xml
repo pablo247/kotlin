@@ -2,4 +2,7 @@
     <string name="app_name">My Application</string>
     <string name="app_Name">Name</string>
     <string name="app_Age">Age</string>
+    <string name="app_Button">Ejecutar</string>
+    <string name="app_RadioButtonM">Masculino</string>
+    <string name="app_RadioButtonF">Femenino</string>
 </resources>

@@ -10,22 +10,20 @@
     <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" android:padding="16px">
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            tools:layout_editor_absoluteY="20dp"
+            tools:layout_editor_absoluteX="20dp">
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
-                android:ems="10"
                 android:id="@+id/editText_Name"
                 android:hint="@string/app_Name"/>
         <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="number"
-                android:ems="10"
                 android:id="@+id/editText_Age"
                 android:hint="@string/app_Age"/>
         <LinearLayout
@@ -54,6 +52,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" android:id="@+id/textView_Age" android:layout_weight="1"/>
         </LinearLayout>
+        <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:orientation="horizontal">
+            <RadioButton
+                    android:text="@string/app_RadioButtonF"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/radioButtonF" android:layout_weight="1"/>
+            <RadioButton
+                    android:text="@string/app_RadioButtonM"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/radioButtonM" android:layout_weight="1"/>
+        </RadioGroup>
+        <Button
+                android:text="@string/app_Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button_Ejecutar" android:textColor="@android:color/background_light"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
