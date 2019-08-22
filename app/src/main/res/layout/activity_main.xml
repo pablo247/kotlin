@@ -26,32 +26,7 @@
                 android:inputType="number"
                 android:id="@+id/editText_Age"
                 android:hint="@string/app_Age"/>
-        <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <TextView
-                    android:text="@string/app_Name"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/textView_Name" android:layout_weight="1"/>
-        </LinearLayout>
-        <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-            <TextView
-                    android:text="@string/app_Age"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"/>
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" android:id="@+id/textView_Age" android:layout_weight="1"/>
-        </LinearLayout>
+
         <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" android:orientation="horizontal">
@@ -69,6 +44,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/button_Ejecutar" android:textColor="@android:color/background_light"/>
+
+        <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lista"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
